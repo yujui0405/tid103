@@ -14,9 +14,13 @@ ul , li{
 
 nav{
     width: 1200px;
+    height: 80px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-nav ul{}
+nav ul{
+    display: flex;
+    gap: 10px;
+}
